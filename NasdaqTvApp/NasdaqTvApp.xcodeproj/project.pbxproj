@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92A951011F0431D100DB8966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A951001F0431D100DB8966 /* AppDelegate.swift */; };
+		92A951061F0431D100DB8966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A951041F0431D100DB8966 /* Main.storyboard */; };
+		92A951081F0431D100DB8966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A951071F0431D100DB8966 /* Assets.xcassets */; };
+		92A951131F0431D100DB8966 /* NasdaqTvAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A951121F0431D100DB8966 /* NasdaqTvAppTests.swift */; };
+		92A9511E1F0431D100DB8966 /* NasdaqTvAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9511D1F0431D100DB8966 /* NasdaqTvAppUITests.swift */; };
+		92A9512C1F04324D00DB8966 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9512B1F04324D00DB8966 /* CollectionViewController.swift */; };
+		92D4F2CB1F05AF1B005F819F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4F2CA1F05AF1B005F819F /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92A9510F1F0431D100DB8966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A950F51F0431D100DB8966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A950FC1F0431D100DB8966;
+			remoteInfo = NasdaqTvApp;
+		};
+		92A9511A1F0431D100DB8966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A950F51F0431D100DB8966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A950FC1F0431D100DB8966;
+			remoteInfo = NasdaqTvApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92A951411F0435FB00DB8966 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92A950FD1F0431D100DB8966 /* NasdaqTvApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasdaqTvApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A951001F0431D100DB8966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92A951051F0431D100DB8966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A951071F0431D100DB8966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92A951091F0431D100DB8966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A9510E1F0431D100DB8966 /* NasdaqTvAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasdaqTvAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A951121F0431D100DB8966 /* NasdaqTvAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasdaqTvAppTests.swift; sourceTree = "<group>"; };
+		92A951141F0431D100DB8966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A951191F0431D100DB8966 /* NasdaqTvAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasdaqTvAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A9511D1F0431D100DB8966 /* NasdaqTvAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasdaqTvAppUITests.swift; sourceTree = "<group>"; };
+		92A9511F1F0431D100DB8966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A9512B1F04324D00DB8966 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		92A951351F0435FB00DB8966 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = System/Library/Frameworks/TVServices.framework; sourceTree = SDKROOT; };
+		92A951381F0435FB00DB8966 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		92A9513A1F0435FB00DB8966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D4F2CA1F05AF1B005F819F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A950FA1F0431D100DB8966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A9510B1F0431D100DB8966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A951161F0431D100DB8966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A950F41F0431D100DB8966 = {
+			isa = PBXGroup;
+			children = (
+				92A950FF1F0431D100DB8966 /* NasdaqTvApp */,
+				92A951111F0431D100DB8966 /* NasdaqTvAppTests */,
+				92A9511C1F0431D100DB8966 /* NasdaqTvAppUITests */,
+				92A951371F0435FB00DB8966 /* Image */,
+				92A951341F0435FB00DB8966 /* Frameworks */,
+				92A950FE1F0431D100DB8966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A950FE1F0431D100DB8966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A950FD1F0431D100DB8966 /* NasdaqTvApp.app */,
+				92A9510E1F0431D100DB8966 /* NasdaqTvAppTests.xctest */,
+				92A951191F0431D100DB8966 /* NasdaqTvAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A950FF1F0431D100DB8966 /* NasdaqTvApp */ = {
+			isa = PBXGroup;
+			children = (
+				92A951001F0431D100DB8966 /* AppDelegate.swift */,
+				92A9512B1F04324D00DB8966 /* CollectionViewController.swift */,
+				92A951041F0431D100DB8966 /* Main.storyboard */,
+				92A951071F0431D100DB8966 /* Assets.xcassets */,
+				92A951091F0431D100DB8966 /* Info.plist */,
+				92D4F2CA1F05AF1B005F819F /* CollectionViewCell.swift */,
+			);
+			path = NasdaqTvApp;
+			sourceTree = "<group>";
+		};
+		92A951111F0431D100DB8966 /* NasdaqTvAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				92A951121F0431D100DB8966 /* NasdaqTvAppTests.swift */,
+				92A951141F0431D100DB8966 /* Info.plist */,
+			);
+			path = NasdaqTvAppTests;
+			sourceTree = "<group>";
+		};
+		92A9511C1F0431D100DB8966 /* NasdaqTvAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92A9511D1F0431D100DB8966 /* NasdaqTvAppUITests.swift */,
+				92A9511F1F0431D100DB8966 /* Info.plist */,
+			);
+			path = NasdaqTvAppUITests;
+			sourceTree = "<group>";
+		};
+		92A951341F0435FB00DB8966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A951351F0435FB00DB8966 /* TVServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92A951371F0435FB00DB8966 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				92A951381F0435FB00DB8966 /* ServiceProvider.swift */,
+				92A9513A1F0435FB00DB8966 /* Info.plist */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A950FC1F0431D100DB8966 /* NasdaqTvApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A951221F0431D100DB8966 /* Build configuration list for PBXNativeTarget "NasdaqTvApp" */;
+			buildPhases = (
+				92A950F91F0431D100DB8966 /* Sources */,
+				92A950FA1F0431D100DB8966 /* Frameworks */,
+				92A950FB1F0431D100DB8966 /* Resources */,
+				92A951411F0435FB00DB8966 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasdaqTvApp;
+			productName = NasdaqTvApp;
+			productReference = 92A950FD1F0431D100DB8966 /* NasdaqTvApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92A9510D1F0431D100DB8966 /* NasdaqTvAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A951251F0431D100DB8966 /* Build configuration list for PBXNativeTarget "NasdaqTvAppTests" */;
+			buildPhases = (
+				92A9510A1F0431D100DB8966 /* Sources */,
+				92A9510B1F0431D100DB8966 /* Frameworks */,
+				92A9510C1F0431D100DB8966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A951101F0431D100DB8966 /* PBXTargetDependency */,
+			);
+			name = NasdaqTvAppTests;
+			productName = NasdaqTvAppTests;
+			productReference = 92A9510E1F0431D100DB8966 /* NasdaqTvAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92A951181F0431D100DB8966 /* NasdaqTvAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A951281F0431D100DB8966 /* Build configuration list for PBXNativeTarget "NasdaqTvAppUITests" */;
+			buildPhases = (
+				92A951151F0431D100DB8966 /* Sources */,
+				92A951161F0431D100DB8966 /* Frameworks */,
+				92A951171F0431D100DB8966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A9511B1F0431D100DB8966 /* PBXTargetDependency */,
+			);
+			name = NasdaqTvAppUITests;
+			productName = NasdaqTvAppUITests;
+			productReference = 92A951191F0431D100DB8966 /* NasdaqTvAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A950F51F0431D100DB8966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = nasdaq;
+				TargetAttributes = {
+					92A950FC1F0431D100DB8966 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2TA6SEHC9S;
+						ProvisioningStyle = Manual;
+					};
+					92A9510D1F0431D100DB8966 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J6JWD722DT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92A950FC1F0431D100DB8966;
+					};
+					92A951181F0431D100DB8966 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J6JWD722DT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92A950FC1F0431D100DB8966;
+					};
+				};
+			};
+			buildConfigurationList = 92A950F81F0431D100DB8966 /* Build configuration list for PBXProject "NasdaqTvApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92A950F41F0431D100DB8966;
+			productRefGroup = 92A950FE1F0431D100DB8966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A950FC1F0431D100DB8966 /* NasdaqTvApp */,
+				92A9510D1F0431D100DB8966 /* NasdaqTvAppTests */,
+				92A951181F0431D100DB8966 /* NasdaqTvAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A950FB1F0431D100DB8966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A951081F0431D100DB8966 /* Assets.xcassets in Resources */,
+				92A951061F0431D100DB8966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A9510C1F0431D100DB8966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A951171F0431D100DB8966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A950F91F0431D100DB8966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A9512C1F04324D00DB8966 /* CollectionViewController.swift in Sources */,
+				92A951011F0431D100DB8966 /* AppDelegate.swift in Sources */,
+				92D4F2CB1F05AF1B005F819F /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A9510A1F0431D100DB8966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A951131F0431D100DB8966 /* NasdaqTvAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A951151F0431D100DB8966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A9511E1F0431D100DB8966 /* NasdaqTvAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A951101F0431D100DB8966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A950FC1F0431D100DB8966 /* NasdaqTvApp */;
+			targetProxy = 92A9510F1F0431D100DB8966 /* PBXContainerItemProxy */;
+		};
+		92A9511B1F0431D100DB8966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A950FC1F0431D100DB8966 /* NasdaqTvApp */;
+			targetProxy = 92A9511A1F0431D100DB8966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92A951041F0431D100DB8966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A951051F0431D100DB8966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92A951201F0431D100DB8966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		92A951211F0431D100DB8966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92A951231F0431D100DB8966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2TA6SEHC9S;
+				INFOPLIST_FILE = NasdaqTvApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasdaq.tvosapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2e7c2610-b04e-4813-91d8-1a03a5ee5574";
+				PROVISIONING_PROFILE_SPECIFIER = "tvOS Dev Profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92A951241F0431D100DB8966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2TA6SEHC9S;
+				INFOPLIST_FILE = NasdaqTvApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasdaq.tvosapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2e7c2610-b04e-4813-91d8-1a03a5ee5574";
+				PROVISIONING_PROFILE_SPECIFIER = "tvOS Dev Profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		92A951261F0431D100DB8966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J6JWD722DT;
+				INFOPLIST_FILE = NasdaqTvAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasdaq.NasdaqTvAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasdaqTvApp.app/NasdaqTvApp";
+			};
+			name = Debug;
+		};
+		92A951271F0431D100DB8966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J6JWD722DT;
+				INFOPLIST_FILE = NasdaqTvAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasdaq.NasdaqTvAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasdaqTvApp.app/NasdaqTvApp";
+			};
+			name = Release;
+		};
+		92A951291F0431D100DB8966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J6JWD722DT;
+				INFOPLIST_FILE = NasdaqTvAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasdaq.NasdaqTvAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NasdaqTvApp;
+			};
+			name = Debug;
+		};
+		92A9512A1F0431D100DB8966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J6JWD722DT;
+				INFOPLIST_FILE = NasdaqTvAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasdaq.NasdaqTvAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NasdaqTvApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A950F81F0431D100DB8966 /* Build configuration list for PBXProject "NasdaqTvApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A951201F0431D100DB8966 /* Debug */,
+				92A951211F0431D100DB8966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A951221F0431D100DB8966 /* Build configuration list for PBXNativeTarget "NasdaqTvApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A951231F0431D100DB8966 /* Debug */,
+				92A951241F0431D100DB8966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A951251F0431D100DB8966 /* Build configuration list for PBXNativeTarget "NasdaqTvAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A951261F0431D100DB8966 /* Debug */,
+				92A951271F0431D100DB8966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A951281F0431D100DB8966 /* Build configuration list for PBXNativeTarget "NasdaqTvAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A951291F0431D100DB8966 /* Debug */,
+				92A9512A1F0431D100DB8966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A950F51F0431D100DB8966 /* Project object */;
+}
